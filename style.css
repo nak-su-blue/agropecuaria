@@ -35,7 +35,7 @@
     border-radius: 5px;
     padding: 5px;
     display: inline-block;
-    background-color: rgba(194, 238, 205, 0.811);
+    border: 2px solid #beebcd;
     text-transform: uppercase;
     transition: all 0.3s ease;
    
@@ -47,4 +47,40 @@
 .menu-navegacao a:active {
     transform: translateY(0);   
     opacity: 0.8;
+}
+/*PAGINA SOBRE*/
+.container{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    max-width: 1300px;
+    
+    padding-right: 3rem;
+    padding-left: 3rem;
+    
+}
+#container-01{
+    padding-top: 3rem ;
+    
+}
+.texto{
+    flex: 1;
+}
+.texto h2{
+    color: #275844;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 2rem;
+}
+.texto p{
+    color: #333533;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    padding: 1rem;
+}
+.imagem img{
+     width: 100%;    
+    height: auto;     
+    border-radius: 10px;
+    display: block;
 }
