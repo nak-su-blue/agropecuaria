@@ -2,17 +2,97 @@
     margin: 0px;
     padding: 0px;
 }
-.fundo-inicial{
+.nav-bar{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px 40px;
     background-color: #1b3b2b;
     color: #ffffff;
+  
 }
-.menu-navegacao{
-    display: flex;
-    justify-content: end;
-    gap: 20px;
-}
+ 
 .menu-navegacao a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
     text-decoration: none;
     color: #ffffff;
     padding: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.name-agro{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    font-size: 22px;
+    
+}
+.logo-agro img{
+    width: 110px;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1b3b2b;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.hero-texto p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    opacity: 0.85;
+}
+.hero-texto{
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left; 
+    max-width: 550px;
+    
+}
+.hero-texto h1{
+    font-size: 36px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+   
+}
+.hero-texto a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-top: 25px;
+    display: inline-block;
+    background-color: #2b5641;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px 24px;
+    transition: background-color 0.3s;
+    
+}
+.link-hero:hover{
+    background-color: #386f54;
+}
+.hero-texto ul{
+    list-style-type: none;
+    margin-bottom: 15px;
+    
+}
+.hero-texto li{
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.hero-texto li::before {
+    content: "✔";
+    color: #4CAF50; /* Verde claro de destaque */
+    font-size: 14px;
+}
+.img-hero img {
+    max-width: 520px; /* Controla o tamanho do frasco/caixa */
+    height: auto;
+    display: block;
 }
