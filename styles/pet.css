@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px 40px;
+    background-color: #1b3b2b;
+    color: #ffffff;
+  
+}
+ 
+.menu-navegacao a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #2b5641;
+    transition: background-color 0.3s;
+}
+.menu-navegacao a:hover{
+    background-color: #386f54;
+}
+.name-agro{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    font-size: 30px;
+    
+}
+.logo-agro img{
+    width: 110px;
+}
+
+.container-pet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f4ec;
+}
+.container-text-pet{
+    font-family: 'Times New Roman', Times, serif;
+    color: #386f54;
+    text-align: left;
+    font-weight: bolder;
+    max-width: 50%;
+}
+.container-text-pet h1{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.container-text-pet span{
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+.container-text-pet h2{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.container-text-pet p{
+    margin-bottom: 22px;
+    font-size: 20px;
+
+}
+.container-text-pet a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1b3b2b;
+    border-radius: 4px;
+    padding: 10px;
+}
+.img-pet img{
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
+
+
+.container-pet.reverso {
+    flex-direction: row-reverse; !important;
+}
