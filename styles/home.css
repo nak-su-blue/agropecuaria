@@ -203,11 +203,3 @@
 .pet-faixa-link img{
     width: 90px;
 }
-/* secao hero da pagina */
-.container-hero-pet{
-    display: flex;
-    flex-direction: row;
-}
-.racao-pet img{
-    width: 100px;
-}
