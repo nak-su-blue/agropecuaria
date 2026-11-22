@@ -1,0 +1,198 @@
+:root {
+    --verde-escuro: #2f452e;
+    --verde-botao: #2b5641;
+    --verde-botao-hover: #386f54;
+    --verde-suave: #cfd8cf;
+    --creme-fundo: #f2eee5;
+    --branco: #ffffff;
+    --texto-botao: #d3ded3;
+    --texto-escuro: #201f1f;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--creme-fundo);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--texto-escuro);
+}
+
+/* BARRA DE NAVEGAÇÃO */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px 40px;
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+}
+
+.menu-navegacao a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--branco);
+    padding: 12px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: var(--verde-botao);
+}
+
+.menu-navegacao a:hover {
+    background-color: var(--verde-botao-hover);
+}
+
+.name-agro {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--branco);
+    font-size: 30px;
+}
+
+.logo-agro img {
+    width: 110px;
+}
+
+/* HERO */
+.hero-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--verde-escuro);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.hero-texto {
+    color: var(--branco);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    max-width: 550px;
+}
+
+.hero-texto h1 {
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.hero-texto p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.link-hero {
+    text-decoration: none;
+    color: var(--branco);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-top: 15px;
+    display: inline-block;
+    background-color: var(--verde-botao);
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px 24px;
+}
+
+.link-hero:hover {
+    background-color: var(--verde-botao-hover);
+}
+
+.img-hero img {
+    max-width: 520px;
+    height: auto;
+}
+
+/* SEÇÃO DE REMÉDIOS */
+.secao-remedios {
+    background-color: var(--verde-suave);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.secao-remedios h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: var(--verde-escuro);
+}
+
+.subtitulo-secao {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.grade-remedios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container-remedio {
+    background-color: var(--creme-fundo);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-remedio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.item-remedio img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 9px;
+}
+
+.item-remedio h2 {
+    margin: 12px;
+    font-size: 22px;
+}
+
+.conteudo-remedio p {
+    margin: 20px;
+    font-size: 17px;
+    max-width: 30ch;
+}
+
+.btn-pedido {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--texto-botao);
+    font-size: 17px;
+    background-color: var(--verde-botao);
+    border-radius: 4px;
+    padding: 9px 18px;
+    margin: 12px;
+}
+
+.btn-pedido:hover {
+    background-color: var(--verde-botao-hover);
+}
+
+/* RODAPÉ */
+.rodape {
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+    text-align: center;
+    padding: 20px;
+    font-size: 17px;
+}

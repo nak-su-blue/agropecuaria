@@ -215,3 +215,39 @@
     padding: 9px;
     margin: 12px;
 }
+.container-final{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #cfd8cf;
+}
+.ultimo-pet img{
+   
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+.ultimo-pet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudo-mensagem p{
+    
+    font-size: 19px;
+    text-align: center;
+    margin: 2px;
+    padding: 1rem;
+}
+.container-final-caixa a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #d3ded3;
+    background-color: #2b5641;
+    border-radius: 4px;
+    padding: 9px;
+    margin-top: 17px;
+}
+.container-final-caixa{
+    text-align: center;
+}
