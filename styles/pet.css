@@ -171,7 +171,7 @@
 }
 .container-pet a{
     text-decoration: none;
-    color: #201f1f;
+    color: #d3ded3;
     font-size: 17px;
     background-color: #2b5641;
     border-radius: 4px;
@@ -183,13 +183,14 @@
    display: flex;
    justify-content: space-around;
    align-items: center;
+   flex-wrap: wrap;
    background-color: #cfd8cf;
-   padding: 4rem;
+   padding: 2rem;
    
 }
 .banho-pet img{
-    width: 190px;
-    height: 190px;
+    width: 200px;
+    height: 200px;
     object-fit: contain;
 }
 .container-banho{
@@ -197,4 +198,20 @@
     flex-direction: column;
     align-items: center;
     max-width: 35ch;
+}
+.container-banho p{
+    font-size: 15px;
+    text-align: center;
+    margin: 2px;
+    padding: 1rem;
+}
+.container-banho a{
+    
+    text-decoration: none;
+    font-size: 17px;
+    color: #d3ded3;
+    background-color: #2b5641;
+    border-radius: 4px;
+    padding: 9px;
+    margin: 12px;
 }
